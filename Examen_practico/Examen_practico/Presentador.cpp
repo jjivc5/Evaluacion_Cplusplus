@@ -283,11 +283,12 @@ void Presentador::eliminarMemoria()
 {
 	if (p_pantalon != nullptr)
 	{
-		delete p_pantalon;
+		p_pantalon = nullptr;
 	}
 	else
 	{
-		delete p_camisa;
+		p_camisa = nullptr;
+		
 	}
 }
 void Presentador::accesoVector()
@@ -355,4 +356,6 @@ Presentador::~Presentador()
 	delete p_vendedor;
 	delete p_tienda;
 	delete p_cotizaciones;
+	delete p_camisa;
+	delete p_pantalon;
 }
