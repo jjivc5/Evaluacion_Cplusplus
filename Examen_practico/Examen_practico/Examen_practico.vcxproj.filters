@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Modelo">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Presentador">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Vista+Interfaz">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Especiales">
+      <UniqueIdentifier>{42843c40-6d15-41b2-b1ab-c187c8eb2ea2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vendedor.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Cotizaciones.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="debugMain.cpp">
+      <Filter>Especiales</Filter>
+    </ClCompile>
+    <ClCompile Include="Tienda.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Prendas.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Camisas.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Pantalones.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Vista+Interfaz</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentador.cpp">
+      <Filter>Presentador</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vendedor.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Cotizaciones.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencias.h">
+      <Filter>Especiales</Filter>
+    </ClInclude>
+    <ClInclude Include="Tienda.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Prendas.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Camisas.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Pantalones.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="IVista.h">
+      <Filter>Vista+Interfaz</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>Vista+Interfaz</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentador.h">
+      <Filter>Presentador</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
